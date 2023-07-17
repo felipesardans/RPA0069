@@ -1,0 +1,182 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_CurrentMonth&Sequence_1",
+        "str_Periodo&Sequence_1",
+        "num_Transaction&Sequence_2",
+        "int_Index&Sequence_2",
+        "list_Transaction&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "CustomSequence/GetFinancialDateNew.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_Dates&Sequence_1",
+        "dt_FilteredDates&Sequence_1",
+        "str_startDate&Sequence_1",
+        "date_DifBerry&Sequence_14",
+        "date_InitBerry&Sequence_14",
+        "str_Mes&Sequence_14",
+        "date_Year&Sequence_12",
+        "date_Month&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_berryCalendarPath",
+        "in_berrySheetName",
+        "out_endDate",
+        "out_currentMonth",
+        "out_todayDate",
+        "out_strPeriodo",
+        "out_strWeekBerry",
+        "out_strInitMonthDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "CustomSequence/SendMail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TemplateMail&Sequence_1",
+        "endTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Adjunto",
+        "in_Config",
+        "in_strMailRecipient",
+        "in_Subject",
+        "in_Body"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "CustomSequence/SAPLogin.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_Username&Sequence_1",
+        "secure_Pass&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "in_strMailRecipient"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "CustomSequence/GenerarReporteSAP.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_Descripcion&Sequence_3",
+        "str_Selector&Sequence_3",
+        "bool_file&Sequence_6",
+        "img_TRXKE5Z&Sequence_8",
+        "bool_File&Sequence_60",
+        "bool_Seguridad&Sequence_60",
+        "str_User&Sequence_14",
+        "secure_Pass&Sequence_14",
+        "img_TRXKE5Z&Sequence_28",
+        "str_from&Sequence_28",
+        "str_To&Sequence_28",
+        "str_User&Sequence_31",
+        "secure_Pass&Sequence_31",
+        "bool_Seguridad&Sequence_30",
+        "bool_FileExiste&Sequence_30",
+        "img_TRXKE5Z&Sequence_80",
+        "img_TRXKE5Z&Sequence_83",
+        "str_from&Sequence_83",
+        "str_To&Sequence_83",
+        "bool_FileExiste&Sequence_82",
+        "bool_Seguridad&Sequence_82"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strMailRecipient",
+        "in_Config",
+        "in_transaction",
+        "in_Variante",
+        "in_Case",
+        "in_Year",
+        "in_Periodo"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
