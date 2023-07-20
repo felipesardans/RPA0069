@@ -146,25 +146,10 @@
       "VariablesSectionElementsOrder": [
         "str_Descripcion&Sequence_3",
         "str_Selector&Sequence_3",
-        "bool_file&Sequence_6",
-        "img_TRXKE5Z&Sequence_8",
-        "bool_File&Sequence_60",
-        "bool_Seguridad&Sequence_60",
-        "str_User&Sequence_14",
-        "secure_Pass&Sequence_14",
-        "img_TRXKE5Z&Sequence_28",
-        "str_from&Sequence_28",
-        "str_To&Sequence_28",
         "str_User&Sequence_31",
         "secure_Pass&Sequence_31",
         "bool_Seguridad&Sequence_30",
-        "bool_FileExiste&Sequence_30",
-        "img_TRXKE5Z&Sequence_80",
-        "img_TRXKE5Z&Sequence_83",
-        "str_from&Sequence_83",
-        "str_To&Sequence_83",
-        "bool_FileExiste&Sequence_82",
-        "bool_Seguridad&Sequence_82"
+        "bool_FileExiste&Sequence_30"
       ],
       "ArgumentsSectionElementsOrder": [
         "in_strMailRecipient",
@@ -174,6 +159,44 @@
         "in_Case",
         "in_Year",
         "in_Periodo"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_Config",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null

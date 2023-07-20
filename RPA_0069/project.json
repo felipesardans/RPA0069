@@ -1,6 +1,5 @@
 {
   "name": "RPA_0069",
-  "projectId": "445ddbc9-77a1-4d69-b788-051c9e4ae9be",
   "description": "Robotic Enterprise Framework",
   "main": "Main.xaml",
   "dependencies": {
@@ -22,7 +21,6 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
-    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -30,8 +28,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true,
-    "pipType": "ChildSession"
+    "mustRestoreAllDependencies": true
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -48,42 +45,36 @@
         "editingStatus": "InProgress",
         "testCaseId": "5ea041d0-9c6e-4256-9434-b31a130b1bae",
         "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
         "fileName": "Tests\\GetTransactionDataTestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "04e55993-1522-4c44-b789-35f9c10c35c5",
         "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
         "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "28700edc-6030-48cb-a0b2-92e9186ce5be",
         "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
         "fileName": "Tests\\InitAllSettingsTestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "5b00321c-6b23-4d63-b982-faa3be2a966c",
         "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
         "fileName": "Tests\\MainTestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "9334035a-79cf-4ff6-b91c-a819a8d06af6",
         "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
         "fileName": "Tests\\ProcessTestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "67f5ff06-49f8-4e62-9b7a-61591302661b",
         "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
         "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
       }
     ],
