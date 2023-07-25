@@ -1,0 +1,68 @@
+﻿24/07/2023 02:17:58 - Ingresando a SAP
+24/07/2023 02:18:24 - Fin de ingreso a SAP
+24/07/2023 02:23:11 - Ingresando a SAP
+24/07/2023 02:23:21 - Fin de ingreso a SAP
+24/07/2023 02:32:31 - Ingresando a SAP
+24/07/2023 02:32:41 - Fin de ingreso a SAP
+24/07/2023 02:35:20 - Ingresando a SAP
+24/07/2023 02:35:27 - Fin de ingreso a SAP
+24/07/2023 02:42:57 - Ingresando a SAP
+24/07/2023 02:43:06 - Fin de ingreso a SAP
+24/07/2023 02:48:07 - Ingresando a SAP
+24/07/2023 02:48:15 - Fin de ingreso a SAP
+24/07/2023 02:52:25 - Ingresando a SAP
+24/07/2023 02:52:32 - Fin de ingreso a SAP
+24/07/2023 02:56:40 - Ingresando a SAP
+24/07/2023 02:56:47 - Fin de ingreso a SAP
+24/07/2023 03:02:23 - Ingresando a SAP
+24/07/2023 03:02:31 - Fin de ingreso a SAP
+24/07/2023 03:06:59 - Ingresando a SAP
+24/07/2023 03:07:07 - Fin de ingreso a SAP
+24/07/2023 03:13:45 - Ingresando a SAP
+24/07/2023 03:13:54 - Fin de ingreso a SAP
+24/07/2023 04:08:27 - Ingresando a SAP
+24/07/2023 04:08:45 - Fin de ingreso a SAP
+24/07/2023 05:12:10 - Ingresando a SAP
+24/07/2023 05:12:18 - Fin de ingreso a SAP
+24/07/2023 05:32:26 - Ingresando a SAP
+24/07/2023 05:32:34 - Fin de ingreso a SAP
+24/07/2023 05:35:29 - Ingresando a SAP
+24/07/2023 05:35:37 - Fin de ingreso a SAP
+24/07/2023 05:40:22 - Ingresando a SAP
+24/07/2023 05:40:30 - Fin de ingreso a SAP
+24/07/2023 05:53:59 - Ingresando a SAP
+24/07/2023 05:54:07 - Fin de ingreso a SAP
+24/07/2023 06:10:53 - Ingresando a SAP
+24/07/2023 06:11:01 - Fin de ingreso a SAP
+24/07/2023 06:17:47 - Ingresando a SAP
+24/07/2023 06:17:55 - Fin de ingreso a SAP
+24/07/2023 06:21:00 - Ingresando a SAP
+24/07/2023 06:21:08 - Fin de ingreso a SAP
+24/07/2023 06:24:37 - Ingresando a SAP
+24/07/2023 06:24:45 - Fin de ingreso a SAP
+24/07/2023 06:27:17 - Ingresando a SAP
+24/07/2023 06:27:26 - Fin de ingreso a SAP
+24/07/2023 06:32:03 - Ingresando a SAP
+24/07/2023 06:32:10 - Fin de ingreso a SAP
+24/07/2023 06:37:19 - Ingresando a SAP
+24/07/2023 06:38:00 - Fin de ingreso a SAP
+24/07/2023 06:43:18 - Ingresando a SAP
+24/07/2023 06:43:26 - Fin de ingreso a SAP
+24/07/2023 06:47:37 - Ingresando a SAP
+24/07/2023 06:47:47 - Fin de ingreso a SAP
+24/07/2023 07:40:09 - Ingresando a SAP
+24/07/2023 07:40:28 - Fin de ingreso a SAP
+24/07/2023 08:34:28 - Ingresando a SAP
+24/07/2023 08:34:38 - Fin de ingreso a SAP
+24/07/2023 09:28:53 - Ingresando a SAP
+24/07/2023 09:29:10 - Fin de ingreso a SAP
+24/07/2023 10:39:05 - Ingresando a SAP
+24/07/2023 10:39:14 - Fin de ingreso a SAP
+24/07/2023 11:12:49 - Ingresando a SAP
+24/07/2023 11:13:02 - Fin de ingreso a SAP
+24/07/2023 11:15:27 - Ingresando a SAP
+24/07/2023 11:15:35 - Fin de ingreso a SAP
+24/07/2023 11:21:06 - Ingresando a SAP
+24/07/2023 11:21:15 - Fin de ingreso a SAP
+24/07/2023 11:26:58 - Ingresando a SAP
+24/07/2023 11:27:06 - Fin de ingreso a SAP
