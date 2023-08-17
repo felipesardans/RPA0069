@@ -1,0 +1,12 @@
+﻿03/08/2023 02:22:03 - Ingresando a SAP
+03/08/2023 02:28:42 - Ingresando a SAP
+03/08/2023 02:31:06 - Fin de ingreso a SAP
+03/08/2023 02:33:06 - Ingreso de Credenciales en TRX ZTPP001
+03/08/2023 02:39:52 - Descarga de Reporte Mapa de Produção
+03/08/2023 02:45:35 - Descarga de Reporte Relatório Mapa de Produção
+03/08/2023 02:55:58 - Ingresando a SAP
+03/08/2023 02:58:17 - Ingresando a SAP
+03/08/2023 02:58:37 - Fin de ingreso a SAP
+03/08/2023 02:59:11 - Ingreso de Credenciales en TRX ZTPP001
+03/08/2023 03:00:11 - Descarga de Reporte Mapa de Produção
+03/08/2023 03:01:02 - Descarga de Reporte Relatório Mapa de Produção
