@@ -1,4 +1,4 @@
-﻿<Activity mc:Ignorable="sap sap2010" x:Class="GenerarReporteSAP" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ucas="clr-namespace:UiPath.Core.Activities.SAP;assembly=UiPath.UiAutomation.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="GenerarReporteSAP" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ucas="clr-namespace:UiPath.Core.Activities.SAP;assembly=UiPath.UiAutomation.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="in_strMailRecipient" Type="InArgument(x:String)" />
     <x:Property sap2010:Annotation.AnnotationText="Dictionary structure to store configuration data of the process (settings, constants and assets)." Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
@@ -12,7 +12,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>994,16660</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>994,16620</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>GenerarReporteSAP_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="74">
@@ -134,7 +134,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="GenerarReporteSAP" sap:VirtualizedContainerService.HintSize="1004,16595" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="GenerarReporteSAP" sap:VirtualizedContainerService.HintSize="1004,16555" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="bool_FileExiste" />
       <Variable x:TypeArguments="x:Boolean" Name="bool_Seguridad" />
@@ -144,9 +144,9 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="962,16503" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="962,16463" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="924,16089" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence sap:VirtualizedContainerService.HintSize="924,16049" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -165,7 +165,7 @@
               </ui:Target>
             </ucas:CallTransaction.Target>
           </ucas:CallTransaction>
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: SAP Easy Access  -  Menú usuario p. RPA Controladoria" sap:VirtualizedContainerService.HintSize="882,15798" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="cb6b17b1-723c-47e7-a369-fdd93588f3e5" Version="V2">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: SAP Easy Access  -  Menú usuario p. RPA Controladoria" sap:VirtualizedContainerService.HintSize="882,15758" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="cb6b17b1-723c-47e7-a369-fdd93588f3e5" Version="V2">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -764,7 +764,7 @@
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (67,603,106,31)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Permitir' (95,612,50,13)&quot;]" DesignTimeCacheId="d77306d4-c043-4e2a-b663-1e37e860111b" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="334,184" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_4" InformativeScreenshot="f151b5e57b15ce4cfe2578c3cddfa623" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                                                <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (67,603,106,31)&quot; +&#xA;&quot;Anchor: Text 'Permitir' (95,612,50,13)&quot;]" DesignTimeCacheId="d77306d4-c043-4e2a-b663-1e37e860111b" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="334,184" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_4" InformativeScreenshot="f151b5e57b15ce4cfe2578c3cddfa623" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
                                                   <p:CvClickWithDescriptor.CursorPosition>
                                                     <ui:CursorPosition Position="Center">
                                                       <ui:CursorPosition.OffsetX>
@@ -813,6 +813,9 @@
                                         </Sequence>
                                       </ActivityAction>
                                     </p:CVScope.Body>
+                                    <p:CVScope.DesignTimeCache>
+                                      <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+                                    </p:CVScope.DesignTimeCache>
                                     <p:CVScope.DesignTimeCacheContainer>
                                       <uc:CvCacheContainer>
                                         <uc:CvCacheContainer.Caches>
@@ -2281,7 +2284,7 @@
                               <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="606,337" sap2010:WorkflowViewState.IdRef="Catch`1_4">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
@@ -2298,10 +2301,18 @@
                                     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="CustomSequence\SendMail.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="CustomSequence\SendMail.xaml">
                                       <ui:InvokeWorkflowFile.Arguments>
                                         <InArgument x:TypeArguments="s:String[]" x:Key="in_Adjunto" />
-                                        <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[in_Config]</InArgument>
-                                        <InArgument x:TypeArguments="x:String" x:Key="in_strMailRecipient">[in_strMailRecipient]</InArgument>
-                                        <InArgument x:TypeArguments="x:String" x:Key="in_Subject">[in_Config("ErrorDownloadReportSubject").ToString]</InArgument>
-                                        <InArgument x:TypeArguments="x:String" x:Key="in_Body">[in_Config("ErrorDownloadReportBody").ToString]</InArgument>
+                                        <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">
+                                          <VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" ExpressionText="in_Config" />
+                                        </InArgument>
+                                        <InArgument x:TypeArguments="x:String" x:Key="in_strMailRecipient">
+                                          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_strMailRecipient" />
+                                        </InArgument>
+                                        <InArgument x:TypeArguments="x:String" x:Key="in_Subject">
+                                          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;ErrorDownloadReport51Subject&quot;).ToString" />
+                                        </InArgument>
+                                        <InArgument x:TypeArguments="x:String" x:Key="in_Body">
+                                          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;ErrorDownloadReport51Body&quot;).ToString" />
+                                        </InArgument>
                                       </ui:InvokeWorkflowFile.Arguments>
                                     </ui:InvokeWorkflowFile>
                                     <Throw Exception="[new Exception(&quot;Error al descargar el archivo del reporte&quot;)]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Throw_2" />
@@ -2324,27 +2335,27 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="592,217" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="cb6b17b1-723c-47e7-a369-fdd93588f3e5" Text="[in_Machines(0).ToString()]" Version="V3">
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="640,217" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="cb6b17b1-723c-47e7-a369-fdd93588f3e5" Text="[in_Machines(0).ToString()]" Version="V3">
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable DesignTimeRectangle="291, 178, 71, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'EREMA01'" FullSelectorArgument="&lt;sap id='usr/ctxtS_MAQ-LOW' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/ctxtS_MAQ-LOW' /&gt;" Guid="4989f352-4b3d-405b-85d4-fa875657b9f8" InformativeScreenshot="20972503a4fac7830c0ead957c8d5cd8.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Relatório Mapa Produção - Eremas' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
                           </uix:NTypeInto.Target>
                         </uix:NTypeInto>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'EREMA05'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="592,217" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="cb6b17b1-723c-47e7-a369-fdd93588f3e5" Text="[in_Machines(1).ToString()]" Version="V3">
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'EREMA05'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="640,217" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="cb6b17b1-723c-47e7-a369-fdd93588f3e5" Text="[in_Machines(1).ToString()]" Version="V3">
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable DesignTimeRectangle="491, 178, 71, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'EREMA05'" FullSelectorArgument="&lt;sap id='usr/ctxtS_MAQ-HIGH' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/ctxtS_MAQ-HIGH' /&gt;" Guid="c71afa18-5581-49f9-b066-fa37846f94ca" InformativeScreenshot="c74451e5e86b54ef36eeeee41554549f.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Relatório Mapa Produção - Eremas' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
                           </uix:NTypeInto.Target>
                         </uix:NTypeInto>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '23.07.2023'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="592,217" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="cb6b17b1-723c-47e7-a369-fdd93588f3e5" Text="[Date.Today.AddDays(-61).ToString(&quot;dd.MM.yyyy&quot;)]" Version="V3">
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '23.07.2023'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="640,217" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="cb6b17b1-723c-47e7-a369-fdd93588f3e5" Text="[Date.Today.AddDays(-61).ToString(&quot;dd.MM.yyyy&quot;)]" Version="V3">
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable DesignTimeRectangle="291, 205, 87, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'23.07.2023'" FullSelectorArgument="&lt;sap id='usr/ctxtS_DATA-LOW' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/ctxtS_DATA-LOW' /&gt;" Guid="8a5fa5b1-604a-4d79-adaa-4859f071385b" InformativeScreenshot="5b1f46b91ac172d4f8a94a116dcb55ed.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Relatório Mapa Produção - Eremas' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
                           </uix:NTypeInto.Target>
                         </uix:NTypeInto>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '23.07.2023'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="592,217" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="cb6b17b1-723c-47e7-a369-fdd93588f3e5" Text="[Date.Today.AddDays(-1).ToString(&quot;dd.MM.yyyy&quot;)]" Version="V3">
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '23.07.2023'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="640,217" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="cb6b17b1-723c-47e7-a369-fdd93588f3e5" Text="[Date.Today.AddDays(-1).ToString(&quot;dd.MM.yyyy&quot;)]" Version="V3">
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable DesignTimeRectangle="491, 205, 87, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'23.07.2023'" FullSelectorArgument="&lt;sap id='usr/ctxtS_DATA-HIGH' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/ctxtS_DATA-HIGH' /&gt;" Guid="b05110c7-2515-4cf6-8a9b-83c0ca426dc2" InformativeScreenshot="f5bf48671b8e2bc10d94a615bd2cb615.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Relatório Mapa Produção - Eremas' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
                           </uix:NTypeInto.Target>
                         </uix:NTypeInto>
-                        <ucas:SelectMenuItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Seleccionar variante" sap:VirtualizedContainerService.HintSize="592,159" sap2010:WorkflowViewState.IdRef="SelectMenuItem_38" Item="Executar   (F8)">
+                        <ucas:SelectMenuItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Seleccionar variante" sap:VirtualizedContainerService.HintSize="640,159" sap2010:WorkflowViewState.IdRef="SelectMenuItem_38" Item="Executar   (F8)">
                           <ucas:SelectMenuItem.Items>
                             <scg:List x:TypeArguments="x:String" Capacity="4">
                               <x:String xml:space="preserve">Executar   (F8)</x:String>
@@ -2361,7 +2372,7 @@
                             </ui:Target>
                           </ucas:SelectMenuItem.Target>
                         </ucas:SelectMenuItem>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button Planilha'" sap:VirtualizedContainerService.HintSize="592,156" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cb6b17b1-723c-47e7-a369-fdd93588f3e5" Version="V3">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button Planilha'" sap:VirtualizedContainerService.HintSize="640,156" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cb6b17b1-723c-47e7-a369-fdd93588f3e5" Version="V3">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable DesignTimeRectangle="424, 99, 26, 26" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Button Planilha'" FullSelectorArgument="&lt;sap id='tbar[1]/btn[43]' /&gt;" FuzzySelectorArgument="&lt;sap id='tbar[1]/btn[43]' /&gt;" Guid="0cb33a3c-5fef-4a0e-8a53-e8836a99c670" InformativeScreenshot="03c0b07b8b56bda74ee8b0008e3b61e0.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Relatório Mapa Produção - Eremas' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
                           </uix:NClick.Target>
@@ -2482,7 +2493,7 @@
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (67,603,106,31)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Permitir' (95,612,50,13)&quot;]" DesignTimeCacheId="6bd7bef5-a1d9-446a-83de-f91516baed8f" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="334,184" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_5" InformativeScreenshot="4ccc850c5f93dd9f9a4750db300b21f0" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                                              <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (67,603,106,31)&quot; +&#xA;&quot;Anchor: Text 'Permitir' (95,612,50,13)&quot;]" DesignTimeCacheId="6bd7bef5-a1d9-446a-83de-f91516baed8f" DesignTimeScaleFactor="1" DisplayName="CV Click - Button" sap:VirtualizedContainerService.HintSize="334,184" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_5" InformativeScreenshot="4ccc850c5f93dd9f9a4750db300b21f0" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
                                                 <p:CvClickWithDescriptor.CursorPosition>
                                                   <ui:CursorPosition Position="Center">
                                                     <ui:CursorPosition.OffsetX>
@@ -2531,6 +2542,9 @@
                                       </Sequence>
                                     </ActivityAction>
                                   </p:CVScope.Body>
+                                  <p:CVScope.DesignTimeCache>
+                                    <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+                                  </p:CVScope.DesignTimeCache>
                                   <p:CVScope.DesignTimeCacheContainer>
                                     <uc:CvCacheContainer>
                                       <uc:CvCacheContainer.Caches>
@@ -4067,7 +4081,7 @@
                             <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="606,337" sap2010:WorkflowViewState.IdRef="Catch`1_5">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
@@ -4084,10 +4098,18 @@
                                   <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="CustomSequence\SendMail.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="CustomSequence\SendMail.xaml">
                                     <ui:InvokeWorkflowFile.Arguments>
                                       <InArgument x:TypeArguments="s:String[]" x:Key="in_Adjunto" />
-                                      <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[in_Config]</InArgument>
-                                      <InArgument x:TypeArguments="x:String" x:Key="in_strMailRecipient">[in_strMailRecipient]</InArgument>
-                                      <InArgument x:TypeArguments="x:String" x:Key="in_Subject">[in_Config("ErrorDownloadReportSubject").ToString]</InArgument>
-                                      <InArgument x:TypeArguments="x:String" x:Key="in_Body">[in_Config("ErrorDownloadReportBody").ToString]</InArgument>
+                                      <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">
+                                        <VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" ExpressionText="in_Config" />
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_strMailRecipient">
+                                        <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_strMailRecipient" />
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_Subject">
+                                        <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;ErrorDownloadReport52Subject&quot;).ToString" />
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_Body">
+                                        <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;ErrorDownloadReport52Body&quot;).ToString" />
+                                      </InArgument>
                                     </ui:InvokeWorkflowFile.Arguments>
                                   </ui:InvokeWorkflowFile>
                                   <Throw Exception="[new Exception(&quot;Error al descargar el archivo del reporte&quot;)]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Throw_3" />
@@ -4120,7 +4142,7 @@
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="880,104" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="928,104" sap2010:WorkflowViewState.IdRef="Catch`1_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
